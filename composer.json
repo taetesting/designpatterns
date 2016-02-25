@@ -1,0 +1,20 @@
+{
+    "name": "xuanvo/designpatterns",
+    "description": "Examples for design patterns",
+    "authors": [
+        {
+            "name": "Xuan Vo",
+            "email": "tae.testing@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "4.8.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "DesignPatterns\\": "src/DesignPatterns/"
+        }
+    }
+}
